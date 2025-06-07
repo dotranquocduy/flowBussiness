@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.4">
+  <diagram name="ページ1" id="5WovfJMCIvRemXHD0tbv">
+    <mxGraphModel dx="1042" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2I35hVBVgCHHZsEkEpHs-1" value="在庫&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;管理＿&lt;/span&gt;商品入庫フロー" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110.00000000000045" y="-30" width="620" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="2I35hVBVgCHHZsEkEpHs-3" value="店員" style="swimlane;startSize=20;html=1;" vertex="1" parent="2I35hVBVgCHHZsEkEpHs-1">
+          <mxGeometry y="20" width="210" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="2I35hVBVgCHHZsEkEpHs-8" value="在庫ボタンを押下" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2I35hVBVgCHHZsEkEpHs-3">
+          <mxGeometry x="44.999999999999545" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2I35hVBVgCHHZsEkEpHs-4" value="画面/入庫端末" style="swimlane;startSize=20;html=1;" vertex="1" parent="2I35hVBVgCHHZsEkEpHs-1">
+          <mxGeometry x="210" y="20" width="190" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="2I35hVBVgCHHZsEkEpHs-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2I35hVBVgCHHZsEkEpHs-4" source="2I35hVBVgCHHZsEkEpHs-9" target="2I35hVBVgCHHZsEkEpHs-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2I35hVBVgCHHZsEkEpHs-9" value="在庫のテーブルを表示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2I35hVBVgCHHZsEkEpHs-4">
+          <mxGeometry x="34.999999999999545" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2I35hVBVgCHHZsEkEpHs-10" value="商品情報を入力する" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2I35hVBVgCHHZsEkEpHs-4">
+          <mxGeometry x="34.999999999999545" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2I35hVBVgCHHZsEkEpHs-18" value="入荷完了メッセージ" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="2I35hVBVgCHHZsEkEpHs-4">
+          <mxGeometry x="19.999999999999545" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2I35hVBVgCHHZsEkEpHs-5" value="POSシステム" style="swimlane;startSize=20;html=1;" vertex="1" parent="2I35hVBVgCHHZsEkEpHs-1">
+          <mxGeometry x="400" y="20" width="220" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="2I35hVBVgCHHZsEkEpHs-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2I35hVBVgCHHZsEkEpHs-5" source="2I35hVBVgCHHZsEkEpHs-37" target="2I35hVBVgCHHZsEkEpHs-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2I35hVBVgCHHZsEkEpHs-37" value="在庫数を計算する" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2I35hVBVgCHHZsEkEpHs-5">
+          <mxGeometry x="49.999999999999545" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2I35hVBVgCHHZsEkEpHs-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2I35hVBVgCHHZsEkEpHs-5" source="2I35hVBVgCHHZsEkEpHs-45" target="2I35hVBVgCHHZsEkEpHs-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2I35hVBVgCHHZsEkEpHs-45" value="&amp;nbsp; 入荷ログを記録する" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="2I35hVBVgCHHZsEkEpHs-5">
+          <mxGeometry x="49.999999999999545" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2I35hVBVgCHHZsEkEpHs-48" value="DBを保存" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="2I35hVBVgCHHZsEkEpHs-5">
+          <mxGeometry x="40" y="440" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2I35hVBVgCHHZsEkEpHs-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2I35hVBVgCHHZsEkEpHs-1" source="2I35hVBVgCHHZsEkEpHs-8" target="2I35hVBVgCHHZsEkEpHs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2I35hVBVgCHHZsEkEpHs-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2I35hVBVgCHHZsEkEpHs-1" source="2I35hVBVgCHHZsEkEpHs-10" target="2I35hVBVgCHHZsEkEpHs-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2I35hVBVgCHHZsEkEpHs-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2I35hVBVgCHHZsEkEpHs-1" source="2I35hVBVgCHHZsEkEpHs-48" target="2I35hVBVgCHHZsEkEpHs-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
